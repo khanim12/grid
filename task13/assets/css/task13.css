@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3 ,auto);
+    grid-template-rows: repeat(2,auto);
+    width: 30%;
+    margin: 20px auto;
+    gap: 13px;
+}
+.grid-container > div{
+    padding: 30px;
+    text-align: left;
+    font-size: 20px;
+    background-color: rgb(71, 69, 69);
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+.grid-container{
+display: grid;
+width: 30%;
+margin: 20px auto;
+grid-template-columns: repeat(3,auto);
+grid-template-rows: repeat(3,auto);
+gap: 5px;
+}
+.grid-container > div{
+    text-align: center;
+    padding: 20px;
+}
+.item1{
+    background-color: aqua;
+}
+.item2{
+    background-color: rgb(255, 60, 0);
+
+}
+.item3{
+    background-color: blue;
+}
+.item4{
+background-color: yellow;
+}
+.item5{
+    background-color: blueviolet;
+}
+.item6{
+    background-color: green;
+}
+.item7{
+    background-color: rgb(197, 144, 30);
+}
+.item8{
+    background-color: rgb(5, 94, 94);
+}
+.item9{
+    background-color:brown;
+}
